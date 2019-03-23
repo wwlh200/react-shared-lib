@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoTooltip should render InfoTooltip 1`] = `
+<div
+  className="info-tip"
+>
+  <Tooltip
+    arrow={true}
+    delay={150}
+    linkClasses=""
+    linkContent={
+      <Icon
+        altContent=""
+        classes=""
+        name="info"
+        style={Object {}}
+      />
+    }
+    position="a"
+    positionOffset={5}
+    reactive={true}
+    theme="standard"
+    trigger="click"
+    width={260}
+  >
+    <class_1 />
+  </Tooltip>
+</div>
+`;

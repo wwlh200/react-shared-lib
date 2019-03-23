@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaxesTipContent should render TaxesTipContent 1`] = `
+<Fragment>
+  <div
+    className="padding-bottom18"
+  >
+    <LocalTranslate
+      locKey="auto.taxes.tooltip.header"
+    />
+  </div>
+  <div>
+    <LocalTranslate
+      locKey="auto.taxes.tooltip.for_example"
+    />
+  </div>
+  <div
+    className="text-bg"
+  >
+    <div
+      className="text-content"
+    >
+      <div
+        className="text-left"
+      >
+        Rate you give us
+      </div>
+      <div
+        className="text-right"
+      >
+        80 USD
+      </div>
+    </div>
+    <div
+      className="text-content"
+    >
+      <div
+        className="text-left"
+      >
+        Taxes/fees
+      </div>
+      <div
+        className="text-right"
+      >
+        20 USD
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-content"
+  >
+    <div
+      className="text-left"
+    >
+      Traveler pays
+    </div>
+    <div
+      className="text-right"
+    >
+      100 USD
+    </div>
+  </div>
+</Fragment>
+`;

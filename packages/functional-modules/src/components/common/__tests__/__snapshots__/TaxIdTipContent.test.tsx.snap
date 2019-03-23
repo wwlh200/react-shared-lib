@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaxesTipContent should render TaxesTipContent 1`] = `
+<Fragment>
+  <p>
+    <LocalTranslate
+      locKey="paymentInfo.taxId.tooltip.examples_include"
+    />
+  </p>
+  <ul>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip1"
+      />
+    </li>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip2"
+      />
+    </li>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip3"
+      />
+    </li>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip4"
+      />
+    </li>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip5"
+      />
+    </li>
+    <li>
+      <LocalTranslate
+        locKey="paymentInfo.taxId.tooltip6"
+      />
+    </li>
+  </ul>
+</Fragment>
+`;

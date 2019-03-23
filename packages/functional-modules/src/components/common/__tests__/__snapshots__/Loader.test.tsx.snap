@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader should render Loader 1`] = `
+<div
+  className="loading-container"
+>
+  <span
+    aria-hidden="true"
+    className="loader-primary loader-light loader loader-animated loading"
+  />
+</div>
+`;

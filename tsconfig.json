@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "allowJs": true,
+        "target": "es5",
+        "jsx": "react",
+        "suppressImplicitAnyIndexErrors": true,
+        "downlevelIteration": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "lib": ["dom", "es6", "es2017"]
+    },
+    "include": [
+        "./src/**/*",
+        "./packages/functional-modules/types"
+    ],
+    "exclude": [
+        "node_modules",
+        "__tests__/**/*"
+    ]
+}

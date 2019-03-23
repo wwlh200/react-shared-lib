@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { "*": ["types/*"] },
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "allowJs": true,       
+        "target": "es5",
+        "jsx": "react",
+        "suppressImplicitAnyIndexErrors": true,
+        "downlevelIteration": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "lib": ["dom", "es6", "es2017"],
+        "isolatedModules": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*",
+        "./types"
+    ],
+    "exclude": [
+        "node_modules",
+        "__tests__/**/*"
+    ]
+}

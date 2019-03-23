@@ -1,0 +1,26 @@
+{
+  "lerna": "2.11.0",    
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "commands": {
+    "publish": {
+      "cdVersion": "patch",
+      "exact": true,      
+      "yes": true,
+      "message": "Package release commit: Publish to Nexus",
+      "registry": "http://nexus.sb.karmalab.net:8081/nexus/content/repositories/npm-internal/"
+    },
+    "bootstrap": {
+      "parallel": true
+    },
+    "clean": {
+      "include-filtered-dependencies": true,
+      "yes": true
+    },
+    "run": {
+      "stream": true
+    }
+  }
+}

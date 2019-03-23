@@ -1,0 +1,11 @@
+.paymentInfo-block {
+  @extend %layout;
+
+  label {
+    margin-top: 0;
+  }
+
+  .inputTitle{
+    cursor: pointer;
+  }
+}

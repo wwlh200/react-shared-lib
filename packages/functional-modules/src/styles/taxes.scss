@@ -1,0 +1,21 @@
+.taxes-block {
+  @extend %layout;
+
+  .taxes-title {
+    font-size: $baseSize+"px";
+    line-height: 1.41;
+    color: $grey-bg;
+  }
+
+  .text-width {
+    width: 110px
+  }
+
+  .uitk-validation-error{
+    position: absolute;
+    font-weight: normal;
+    font-size: 13px;
+    width: 180px;
+    left: -20px;
+  }
+}

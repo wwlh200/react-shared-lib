@@ -1,0 +1,75 @@
+// Font size
+$baseSize: 17;
+$baseSize13: 13px;
+$baseSize15: 15px;
+
+// Color
+$moduleBg: #fff;
+$border-Color: #e0e0e0;
+$grey-bg: #6b6b6b;
+$error-color:#b80000;
+
+// font
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size15{
+  font-size: $baseSize15;
+}
+
+.font-size13{
+  font-size: $baseSize13;
+}
+
+// distance
+.padding18{
+  padding: 1.05882353em;
+}
+
+.padding-top6 {
+  padding-top: 6px;
+}
+.padding-left18 {
+  padding-left: 18px;
+}
+
+.padding-bottom18 {
+  padding-bottom: 18px;
+}
+
+.moduleDetail {
+  width: 100%;
+  label {
+    margin-top: 18rem/$baseSize;
+    &[class^='text'] {
+      margin-top: 6px;
+      display: inline-block;
+      padding-left: 12px;
+    }
+    &[class^='select'] {
+      margin-top: 6px;
+    }
+  }
+  .label {
+    margin-bottom: 4rem/$baseSize;
+  }
+  .inline-label {
+    font-size: 15rem/$baseSize;
+  }
+
+  .check input[type=checkbox], .check input[type=radio] {
+    width: 18rem/$baseSize;
+    height: 18rem/$baseSize;
+    /*
+    margin-top: 2rem/$baseSize;
+    */
+  }
+  .check input[type=checkbox] {
+    left: 2rem/$baseSize;
+  }
+
+  .check .inline-label {
+    padding-left: 24rem/$baseSize;
+  }
+}
