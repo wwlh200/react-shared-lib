@@ -5,6 +5,10 @@ The shared lib of react project
 
 ----
 ## How to use in main-project
+### Introduce Local Lib
+```
+npm link ..\react-shared-lib\packages\functional-modules\
+```
 ### Use Component
 1. import one reducer (moduleReducer)
     ```javascript
