@@ -33,6 +33,6 @@ export function getModules() {
     headers: { 'Content-Type': 'application/json' },
   };
 
-  return fetchData(`apiUrl` ,
+  return fetchData('apiUrl' ,
                    callbacks, fetchOptions);
 }
